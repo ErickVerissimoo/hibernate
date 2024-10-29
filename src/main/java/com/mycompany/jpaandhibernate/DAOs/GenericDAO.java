@@ -4,6 +4,7 @@
  */
 package com.mycompany.jpaandhibernate.DAOs;
 
+import jakarta.persistence.EntityManager;
 import java.util.List;
 
 /**
@@ -13,9 +14,13 @@ import java.util.List;
  * @param <ID>
  */
 public interface GenericDAO <T, ID> {
+  
+    
     void add(T entity);
-    T get(ID id);
-    void update(T entity);
-    void delete(ID id);
-    List<T> getAll();
+     T get(ID id);
+     void update(T entity);
+     void delete(ID id);
+     List<T> getAll();
+
+    
 }

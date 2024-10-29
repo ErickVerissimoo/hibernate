@@ -1,5 +1,9 @@
 com/mycompany/jpaandhibernate/DAOs/reuniãoDAO.class
+com/mycompany/jpaandhibernate/entitites/Employee.class
 com/mycompany/jpaandhibernate/entitites/reuniao.class
 com/mycompany/jpaandhibernate/JPAandHibernate.class
+com/mycompany/jpaandhibernate/DAOs/EmployeeDAO.class
+com/mycompany/jpaandhibernate/mainhibernate.class
+com/mycompany/jpaandhibernate/utils/JpaUtils.class
 com/mycompany/jpaandhibernate/DAOs/GenericDAO.class
 com/mycompany/jpaandhibernate/utils/HibernateUtils.class

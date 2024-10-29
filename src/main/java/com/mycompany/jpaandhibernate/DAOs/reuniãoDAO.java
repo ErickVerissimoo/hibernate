@@ -5,7 +5,7 @@
 package com.mycompany.jpaandhibernate.DAOs;
 
 import com.mycompany.jpaandhibernate.entitites.reuniao;
-import static com.mycompany.jpaandhibernate.utils.HibernateUtils.*;
+import static com.mycompany.jpaandhibernate.utils.JpaUtils.*;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityTransaction;
 import java.util.List;
@@ -16,9 +16,10 @@ import java.util.List;
  */
 public class reuniãoDAO implements GenericDAO<reuniao, Integer> {
 
-    private EntityManager manager = null;
+    private final EntityManager manager;
 
     public reuniãoDAO(EntityManager manager) {
+       
         this.manager = manager;
     }
 
