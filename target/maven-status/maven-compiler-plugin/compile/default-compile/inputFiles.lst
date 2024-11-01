@@ -1,9 +1,12 @@
+/home/gil/NetBeansProjects/JPAandHibernate/src/main/java/com/mycompany/jpaandhibernate/entitites/Department.java
 /home/gil/NetBeansProjects/JPAandHibernate/src/main/java/com/mycompany/jpaandhibernate/DAOs/reuniãoDAO.java
 /home/gil/NetBeansProjects/JPAandHibernate/src/main/java/com/mycompany/jpaandhibernate/utils/JpaUtils.java
 /home/gil/NetBeansProjects/JPAandHibernate/src/main/java/com/mycompany/jpaandhibernate/entitites/reuniao.java
 /home/gil/NetBeansProjects/JPAandHibernate/src/main/java/com/mycompany/jpaandhibernate/JPAandHibernate.java
 /home/gil/NetBeansProjects/JPAandHibernate/src/main/java/com/mycompany/jpaandhibernate/entitites/Employee.java
 /home/gil/NetBeansProjects/JPAandHibernate/src/main/java/com/mycompany/jpaandhibernate/mainhibernate.java
+/home/gil/NetBeansProjects/JPAandHibernate/src/main/java/com/mycompany/jpaandhibernate/DAOs/DepartmentDAO.java
+/home/gil/NetBeansProjects/JPAandHibernate/src/main/java/com/mycompany/jpaandhibernate/inserirDepartamento.java
 /home/gil/NetBeansProjects/JPAandHibernate/src/main/java/com/mycompany/jpaandhibernate/DAOs/GenericDAO.java
 /home/gil/NetBeansProjects/JPAandHibernate/src/main/java/com/mycompany/jpaandhibernate/DAOs/EmployeeDAO.java
 /home/gil/NetBeansProjects/JPAandHibernate/src/main/java/com/mycompany/jpaandhibernate/utils/HibernateUtils.java

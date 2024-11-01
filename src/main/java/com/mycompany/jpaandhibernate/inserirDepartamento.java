@@ -4,20 +4,28 @@
  */
 package com.mycompany.jpaandhibernate;
 
+import com.mycompany.jpaandhibernate.DAOs.DepartmentDAO;
 import com.mycompany.jpaandhibernate.DAOs.EmployeeDAO;
 import com.mycompany.jpaandhibernate.entitites.Department;
 import com.mycompany.jpaandhibernate.entitites.Employee;
-import com.mycompany.jpaandhibernate.entitites.reuniao;
 import com.mycompany.jpaandhibernate.utils.HibernateUtils;
 
 /**
  *
  * @author Erick
  */
-public class mainhibernate {
+public class inserirDepartamento {
     public static void main(String[] args) {
-       
         Department departamento = new Department();
-        reuniao reunir = new reuniao();
+        departamento.setNome("Recursos humanos");
+        DepartmentDAO dao = new DepartmentDAO(HibernateUtils.buildSesssion().openSession());
+        dao.add(departamento);
+        Employee empregado = new Employee();
+        empregado.setEmail("erickvs@gmail.com");
+        empregado.setIdade(24);
+        empregado.setNome("erick verissimo");
+        empregado.setDepartamento(departamento);
+        EmployeeDAO dau = new EmployeeDAO(HibernateUtils.buildSesssion().openSession());
+       dau.add(empregado);
     }
 }

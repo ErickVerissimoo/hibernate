@@ -4,6 +4,7 @@
  */
 package com.mycompany.jpaandhibernate.utils;
 
+import com.mycompany.jpaandhibernate.entitites.Department;
 import com.mycompany.jpaandhibernate.entitites.Employee;
 import java.util.Properties;
 import org.hibernate.HibernateException;
@@ -31,6 +32,7 @@ public static SessionFactory buildSesssion(){
             configuracao.setProperties(settings);
 
             configuracao.addAnnotatedClass(Employee.class);
+            configuracao.addAnnotatedClass(Department.class);
             return configuracao.buildSessionFactory();
     
     }}

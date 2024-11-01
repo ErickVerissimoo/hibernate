@@ -4,6 +4,7 @@
  */
 package com.mycompany.jpaandhibernate.DAOs;
 
+import com.mycompany.jpaandhibernate.entitites.Department;
 import com.mycompany.jpaandhibernate.entitites.Employee;
 import java.util.List;
 import org.hibernate.Session;
@@ -51,5 +52,5 @@ transaction.commit();
         List<Employee> empregados = sessao.createNativeQuery("select * from employee", Employee.class).getResultList();
     return empregados;
     }
-    
+ 
 }

@@ -1,9 +1,12 @@
-com/mycompany/jpaandhibernate/DAOs/reuniãoDAO.class
-com/mycompany/jpaandhibernate/entitites/Employee.class
+com/mycompany/jpaandhibernate/DAOs/DepartmentDAO.class
 com/mycompany/jpaandhibernate/entitites/reuniao.class
 com/mycompany/jpaandhibernate/JPAandHibernate.class
-com/mycompany/jpaandhibernate/DAOs/EmployeeDAO.class
 com/mycompany/jpaandhibernate/mainhibernate.class
 com/mycompany/jpaandhibernate/utils/JpaUtils.class
-com/mycompany/jpaandhibernate/DAOs/GenericDAO.class
 com/mycompany/jpaandhibernate/utils/HibernateUtils.class
+com/mycompany/jpaandhibernate/DAOs/reuniãoDAO.class
+com/mycompany/jpaandhibernate/entitites/Employee.class
+com/mycompany/jpaandhibernate/inserirDepartamento.class
+com/mycompany/jpaandhibernate/DAOs/EmployeeDAO.class
+com/mycompany/jpaandhibernate/entitites/Department.class
+com/mycompany/jpaandhibernate/DAOs/GenericDAO.class
